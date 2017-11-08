@@ -77,12 +77,8 @@ body {
       border-radius: 6px;
       margin-right: .8em; }
       .banner .intro .download-buttons .button i {
-        color: black;
-        float: left;
-        margin-right: .3em;
-        margin-left: .8em; }
+        color: black; }
       .banner .intro .download-buttons .button span {
-        float: left;
         margin-top: .5em; }
       .banner .intro .download-buttons .button:hover {
         background-color: white; }
