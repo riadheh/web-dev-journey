@@ -75,7 +75,8 @@ body {
       max-width: 100%;
       font-size: 1.1em;
       border-radius: 6px;
-      margin-right: .8em; }
+      margin-left: .4em;
+      margin-right: .4em; }
       .banner .intro .download-buttons .button i {
         color: black; }
       .banner .intro .download-buttons .button span {
@@ -94,7 +95,8 @@ body {
         text-decoration: none;
         background-color: #363636;
         border-radius: 8px;
-        margin-left: .8em; }
+        margin-left: .4em;
+        margin-right: .4em; }
         .banner .intro .mobile-apps .button img {
           width: 100%;
           max-width: 100%; }
