@@ -1,0 +1,86 @@
+/* VARIABLES */
+/* RESET */
+body {
+  padding: 0;
+  margin: 0;
+  background: #eeeeee;
+  color: white; }
+
+/* GENERAL */
+@font-face {
+  font-family: "museo";
+  src: url("../fonts/museo700-regular.ttf"); }
+@font-face {
+  font-family: "lobster";
+  src: url("../fonts/lobster-two-regular.otf"); }
+/* HEADER */
+.jumbo {
+  background: url("../images/back-header.jpg") no-repeat;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.jumbo-darken {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+
+.jumbotron {
+  background-color: transparent; }
+
+.navbar-custom {
+  background: transparent; }
+  .navbar-custom .navbar-brand {
+    padding-top: .1em;
+    margin-right: 2em;
+    font-family: "lobster";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 3em;
+    color: #eeeeee; }
+  .navbar-custom .navbar-brand:hover {
+    color: white; }
+  .navbar-custom .navbar-text {
+    color: white; }
+  .navbar-custom .navbar-nav .nav-link {
+    color: #eeeeee; }
+  .navbar-custom .nav-item.active .nav-link {
+    color: white;
+    background: black; }
+  .navbar-custom .nav-item:hover {
+    color: white; }
+    .navbar-custom .nav-item:hover .nav-link {
+      color: white; }
+
+/* END NAVBAR CUSTOM */
+/* .my-btn {
+    //@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+    @include button-variant(red, white, blue);
+  }
+*/
+.btn-primary {
+  color: #fff;
+  background-color: #fb2f3a;
+  border-color: #fb2f3a; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fc5961;
+  border-color: #fc5961; }
+
+.btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: underline; }
+
+.btn-secondary:hover {
+  color: #eeeeee;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: underline; }
+
+.header-browser {
+  align-content: bottom; }
+
+/*# sourceMappingURL=style.css.map */

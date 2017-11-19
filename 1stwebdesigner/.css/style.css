@@ -1,0 +1,27 @@
+/* RESET */
+body {
+  padding: 0;
+  margin: 0; }
+
+/* GENERAL */
+@font-face {
+  font-family: "museo";
+  src: url("../fonts/museo700-regular.ttf"); }
+@font-face {
+  font-family: "lobster";
+  src: url("../fonts/lobster-two-regular.otf"); }
+/* HEADER */
+.hero-unit {
+  display: block;
+  background-image: url("../images/back-header.jpg");
+  padding: 0; }
+
+.navbar-brand {
+  padding-top: .1em;
+  margin-right: 2em;
+  font-family: "lobster";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 3em; }
+
+/*# sourceMappingURL=style.css.map */
